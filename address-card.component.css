@@ -1,0 +1,24 @@
+ /* The stylig that we applied in this css file will be applied only within this component 
+ for ex: the styles written here doesnot work on app.component.html 
+ but it works in app.address-card.component.html */
+.address-card
+{
+border: 1px gray solid;
+}
+.name
+{
+    font-family: "Verdana", sans-serif;
+}
+.title
+{
+    font-style: italic;
+}
+.address
+{
+    font-size : 15px;
+}
+.phone
+{
+    border-left : 1px gray solid;
+    padding-left: 5px;
+}
